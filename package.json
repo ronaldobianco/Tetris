@@ -1,0 +1,12 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "createEnv": "virtualenv env",
+    "pipInstall": "pip install -r requirements.txt",
+    "deactivateEnv": "deactivate",
+    "which": "which python3"
+  }
+}
